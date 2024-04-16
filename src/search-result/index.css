@@ -1,0 +1,15 @@
+.title{
+    font-size: 22px;
+    text-decoration: none;
+}
+.link{
+    color: #006621;
+    text-decoration: none;
+}
+p{
+    color: #444444;
+    font-size: 15px;
+}
+.result-container{
+    margin: 10px;
+}
