@@ -5,12 +5,17 @@ const SearchResult = (props) => {
     const { link, title, description } = result;
   return (
     <div className='result-container'>
-      <a className='title' href={link} target='_blank' rel='noopener'> {title}</a>
-      <br/>
-      <a className='link' href={link} target='_blank' rel='noopener'>{link}</a>
-      <br/>
-      <p>{description}</p> 
-    </div>
+  <a className='title' href={link} target='_blank' rel='noopener noreferrer'>
+    {title}
+  </a>
+  <br/>
+  <a className='link' href={link} target='_blank' rel='noopener noreferrer'>
+    {link}
+  </a>
+  <br/>
+  <p>{description}</p> 
+</div>
+
   )
 }
 
